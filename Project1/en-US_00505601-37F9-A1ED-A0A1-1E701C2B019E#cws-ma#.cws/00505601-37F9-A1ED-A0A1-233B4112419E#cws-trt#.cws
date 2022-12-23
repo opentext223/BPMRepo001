@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-37F9-A1ED-A0A1-233B4112819E">
+	<DocumentID>00505601-37F9-A1ED-A0A1-233B4112419E</DocumentID>
+	<Name>00505601-37F9-A1ED-A0A1-233B4112419E</Name>
+	<Description>DymamicEnum</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-23T05:44:56.469</CreationDate>
+	<Notes/>
+	<Text>DymamicEnum</Text>
+	<Language>
+		<uri
+			id="00505601-37F9-A1ED-A0A1-1E701C2A819E"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-37F9-A1ED-A0A1-233B4111C19E"
+		/>
+	</TextIdentifier>
+</TranslatedText>
