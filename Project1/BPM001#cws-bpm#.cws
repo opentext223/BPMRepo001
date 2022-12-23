@@ -465,6 +465,8 @@
 			<CreationDate>2022-12-23T05:53:19.844</CreationDate>
 			<Notes/>
 			<ActivityColor>#bcd6f1</ActivityColor>
+			<ApplicationName></ApplicationName>
+			<ApplicationNameSelection>static</ApplicationNameSelection>
 			<ClassicDebugCondition>false</ClassicDebugCondition>
 			<ClassicExecuteCondition>false</ClassicExecuteCondition>
 			<CrashRecoveryCustomized>false</CrashRecoveryCustomized>
@@ -475,12 +477,25 @@
 			<DebugStep>no</DebugStep>
 			<DocumentationText></DocumentationText>
 			<DynamicExecuteCondition>_none</DynamicExecuteCondition>
+			<EnableRpa>false</EnableRpa>
+			<EnableRpaProcess>false</EnableRpaProcess>
 			<ExecuteCondition></ExecuteCondition>
 			<ExecutionUserType>currentOwner</ExecutionUserType>
 			<FontSize>12</FontSize>
 			<LogData/>
 			<MonitorLevel></MonitorLevel>
 			<MonitoringEnabled>false</MonitoringEnabled>
+			<RpaProcessInputMessage></RpaProcessInputMessage>
+			<RpaProcessInputSelection>static</RpaProcessInputSelection>
+			<RpaProcessName></RpaProcessName>
+			<RpaProcessNameSelection>readFromApplication</RpaProcessNameSelection>
+			<RpaQueueInputMessage></RpaQueueInputMessage>
+			<RpaQueueInputSelection>static</RpaQueueInputSelection>
+			<RpaQueueName></RpaQueueName>
+			<RpaQueueNameSelection>readFromApplication</RpaQueueNameSelection>
+			<RpaRoboName></RpaRoboName>
+			<RpaRoboSelection>static</RpaRoboSelection>
+			<RpaRoboStrategy>triggerWithAnyRobo</RpaRoboStrategy>
 			<SyncDBBeforeActivity>false</SyncDBBeforeActivity>
 			<links/>
 			<ActivityMessages/>

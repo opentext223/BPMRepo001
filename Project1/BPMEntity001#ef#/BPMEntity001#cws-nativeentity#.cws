@@ -12,8 +12,10 @@
 	<Notes/>
 	<ExposeForReuse>false</ExposeForReuse>
 	<IsAbstract>false</IsAbstract>
+	<IsEisNativeEntity>false</IsEisNativeEntity>
 	<IsExternallyManaged>false</IsExternallyManaged>
 	<IsSingleton>false</IsSingleton>
+	<RepositoryConnectionId></RepositoryConnectionId>
 	<TableName></TableName>
 	<BuildingBlocks>
 		<uri
@@ -29,7 +31,7 @@
 	<OwnedBuildingBlocks>
 		<IdentityBuildingBlock
 			type="com.cordys.entity.buildingblocks.identity.IdentityBuildingBlock"
-			typeVersion="EAE0699A-5BE7-41E8-898A-C1CAE62540D6"
+			typeVersion="A0B36EE4-EFF5-405B-B42D-A0155C666173"
 			RuntimeDocumentID="00505601-37F9-A1ED-A0A1-136CBBD4019E">
 			<DocumentID>00505601-37F9-A1ED-A0A1-136CBBD3C19E</DocumentID>
 			<Name>Identity</Name>
@@ -82,18 +84,6 @@
 					<Notes/>
 					<ActionDisplayName>DeleteAction</ActionDisplayName>
 					<ActionId>A042308A295B4ECF850D9061965D66FF</ActionId>
-				</IdentityAction>
-				<IdentityAction
-					type="com.cordys.entity.buildingblocks.identity.IdentityAction"
-					RuntimeDocumentID="00505601-37F9-A1ED-A0A1-136CBBD2819E">
-					<DocumentID>00505601-37F9-A1ED-A0A1-136CBBD2419E</DocumentID>
-					<Name>Print</Name>
-					<Description>Print</Description>
-					<CreatedBy>sysadmin</CreatedBy>
-					<CreationDate>2022-12-23T05:44:56.463</CreationDate>
-					<Notes/>
-					<ActionDisplayName>PrintAction</ActionDisplayName>
-					<ActionId>4592FF9284D1416C8515A3BC167DCDA7</ActionId>
 				</IdentityAction>
 			</OwnedActions>
 			<Properties>
@@ -675,6 +665,7 @@
 							<ValuesDefinition>
 								<DynamicTextEnumSet
 									type="com.cordys.entity.core.typesystem.primitives.dynamicenum.DynamicTextEnumSet"
+									typeVersion="9059AC43-C4E8-47C1-B5EA-FF4BB6EB9463"
 									RuntimeDocumentID="00505601-37F9-A1ED-A0A1-54408C36819E">
 									<DocumentID>00505601-37F9-A1ED-A0A1-54408C36419E</DocumentID>
 									<Name>Untitled DynamicTextEnumSet</Name>
@@ -682,6 +673,47 @@
 									<CreatedBy>sysadmin</CreatedBy>
 									<CreationDate>2022-12-23T05:53:29.114</CreationDate>
 									<Notes/>
+									<CacheDuration>10</CacheDuration>
+									<CacheDurationUnit>minutes</CacheDurationUnit>
+									<ContextProperties>
+										<PropertyObjectPath
+											type="com.cordys.entity.core.objectpath.PropertyObjectPath"
+											RuntimeDocumentID="00505601-20C1-A1ED-A0A2-2C9D25219C61">
+											<DocumentID>00505601-20C1-A1ED-A0A2-2C9D25215C61</DocumentID>
+											<Name>00505601-20C1-A1ED-A0A2-2C9D25215C61</Name>
+											<Description/>
+											<CreatedBy>sysadmin</CreatedBy>
+											<CreationDate>2022-12-23T06:12:25.561</CreationDate>
+											<Notes/>
+											<NumberOfIntermediateRelationships>0</NumberOfIntermediateRelationships>
+											<IntermediateRelationships/>
+											<Object>
+												<uri
+													id="00505601-37F9-A1ED-A0A1-233B4118C19E"
+												/>
+											</Object>
+											<ObjectOwner>
+												<uri
+													id="00505601-37F9-A1ED-A0A1-54408C36419E"
+												/>
+											</ObjectOwner>
+											<PathBegin>
+												<uri
+													id="00505601-37F9-A1ED-A0A1-136CBBD9C19E"
+												/>
+											</PathBegin>
+											<PathEnd>
+												<uri
+													id="00505601-37F9-A1ED-A0A1-233B4118419E"
+												/>
+											</PathEnd>
+											<RootOwner>
+												<uri
+													id="00505601-37F9-A1ED-A0A1-136CBBD9C19E"
+												/>
+											</RootOwner>
+										</PropertyObjectPath>
+									</ContextProperties>
 									<DisplayNameProvider>
 										<BPMEnumProvider
 											type="com.cordys.bpm.provider.BPMEnumProvider"

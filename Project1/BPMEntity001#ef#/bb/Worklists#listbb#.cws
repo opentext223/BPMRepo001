@@ -2,7 +2,7 @@
 <WorklistBuildingBlock
 	xmlns:cws="http://schemas.cordys.com/cws/1.0"
 	type="com.cordys.entity.buildingblocks.worklist.WorklistBuildingBlock"
-	typeVersion="BEC7B309-5B65-41AF-8B55-F5CB89459BC5"
+	typeVersion="32e265e6-5eca-4903-ba2e-9f760b311d90"
 	RuntimeDocumentID="00505601-37F9-A1ED-A0A1-136CBBD7019E">
 	<DocumentID>00505601-37F9-A1ED-A0A1-136CBBD6C19E</DocumentID>
 	<Name>Worklists</Name>
